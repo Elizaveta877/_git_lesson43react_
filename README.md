@@ -26,7 +26,7 @@ npm install
 
 ###3 Запуск проєкту
 Запустіть додаток у режимі розробки:
-
+git-lesson43react.vercel.app
 npm run dev
 
 ###Посилання на демо-версію:
