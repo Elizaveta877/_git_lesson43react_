@@ -30,4 +30,4 @@ git-lesson43react.vercel.app
 npm run dev
 
 ###Посилання на демо-версію:
-
+git-lesson43react.vercel.app
