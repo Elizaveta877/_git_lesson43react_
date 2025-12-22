@@ -1,16 +1,33 @@
-# React + Vite
+# ⚛️ React Router Demo App (Lesson 43)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌟 Короткий опис проєкту
 
-Currently, two official plugins are available:
+Цей проєкт є демонстрацією базової **клієнтської маршрутизації** в односторінковому додатку (SPA), створеному за допомогою React та бібліотеки **React Router DOM (v6+)**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Основні функції:
 
-## React Compiler
+* **Навігація:** Додаток містить три основні сторінки (`Головна`, `Про нас`, `Контакти`).
+* **Маршрутизація:** Використовує компоненти `<BrowserRouter>`, `<Routes>` та `<Route>` для зв'язування URL-шляхів з відповідними компонентами.
+* **Активне виділення:** Компонент `<NavLink>` використовується для створення меню, при цьому активне посилання автоматично виділяється стилем.
+* **Умовний текст:** На головній сторінці відображається повідомлення, коли користувач вже перебуває на ній.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Інструкції зі встановлення та запуску
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Щоб запустити цей проєкт локально, виконайте наступні кроки.
+### 1. Клонування репозиторію
+
+Відкрийте термінал і виконайте команду клонування:
+### 2. Встановлення залежностей
+Увійдіть у папку проєкту і встановіть усі необхідні залежності (включно з react-router)
+
+npm install
+
+###3 Запуск проєкту
+Запустіть додаток у режимі розробки:
+git-lesson43react.vercel.app
+npm run dev
+
+###Посилання на демо-версію:
+
