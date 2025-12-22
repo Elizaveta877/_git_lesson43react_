@@ -40,3 +40,13 @@
 .read-the-docs {
   color: #888;
 }
+
+.active-link {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+}
+
+
+.inactive-link {
+  color: #555;
+}
